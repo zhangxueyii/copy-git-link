@@ -46,7 +46,7 @@ class GitLink(actionEvent: AnActionEvent) {
         }
     val branchLink: String
         get() {
-            return "https://$repositoryPath/blob/${repo?.currentBranch}$relativePath$linePath"
+            return "https://$repositoryPath/blob/${repo?.currentBranch}$relativePath$linePath".replace("/blob/refs/heads/", "/blob/")
         }
 
     val source:String
