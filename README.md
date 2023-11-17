@@ -35,7 +35,10 @@ And, Click "Copy permalink as MD" to copy the link in Markdown format.
   
 - Manually:
 
-  Download the [latest release](https://github.com/kawamataryo/copy-git-link/releases/latest) and install it manually using
+  Option A: Download the [latest release](https://github.com/kawamataryo/copy-git-link/releases/latest) and install it manually using
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+
+  Option B: open this project in Intellij idea -> Gradle -> buildPlugin task, find the output package at <kbd>build/distributions/Copy Git Link-x.x.x.zip</kbd> and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
